@@ -52,7 +52,7 @@ function ModalNewTask() {
               as="h3"
               className="font-medium text-lg leading-6 text-gray-900 pb-2"
             >
-              Add New Task
+              Add new task
             </DialogTitle>
             <XMarkIcon
               onClick={closeModal}
@@ -80,7 +80,7 @@ function ModalNewTask() {
               }}
             >
               <PhotoIcon className="h-6 w-6 mr-2 inline-block" />
-              Upload Image
+              Upload image
             </button>
 
             {image && (

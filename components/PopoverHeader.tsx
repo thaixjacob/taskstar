@@ -11,7 +11,7 @@ function PopoverHeader() {
     <PopoverGroup className="flex justify-center items-center gap-4">
       <Popover className="relative">
         <PopoverButton className="font-medium hover:font-bold hover:underline text-white text-lg outline-none">
-          Who did it?
+          Who made this?
         </PopoverButton>
 
         <PopoverPanel

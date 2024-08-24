@@ -14,9 +14,9 @@ type Props = {
 const idToColumnText: {
   [key in TypedColumn]: string;
 } = {
-  todo: "Start Here",
-  inprogress: "On the Way",
-  done: "Mission Complete!",
+  todo: "Let's start",
+  inprogress: "Working on it",
+  done: "Mission completed!",
 };
 
 function Column({ id, todos, index }: Props) {
@@ -112,7 +112,7 @@ function Column({ id, todos, index }: Props) {
                     >
                       <div className="flex flex-row justify-center items-center gap-2">
                         <PlusCircleIcon className="h-5 w-5" />
-                        <p className="">Add New Task</p>
+                        <p className="">Add new task</p>
                       </div>
                     </button>
                   </div>
