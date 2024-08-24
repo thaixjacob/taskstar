@@ -70,3 +70,22 @@ TaskStar's interface is designed with pastel colors and interactive elements to 
    ```bash
    npm start
    ```
+
+## 🖥️ Demo
+
+<br>
+
+<p align="center">
+  <a href="https://taskstar-ai-app-thaixjacob-thaixjacobs-projects.vercel.app/" target="_blank">
+  <img width="250" src="public/demo-mobile.png" alt="todo app version mobile"><br>
+  <img width="250" src="public/demo-desktop.png" alt="todo app version desktop"><br><br>
+  This project is deployed in Vercel, check it out by clicking on this link!
+  </a>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+<a href="/LICENSE">MIT License</a> - Copyright © 2023 - <a href="https://github.com/thaixjacob">Thais Jacob</a>
+</p>
