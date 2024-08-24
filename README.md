@@ -76,7 +76,7 @@ TaskStar's interface is designed with pastel colors and interactive elements to 
 <br>
 
 <p align="center">
-  <a href="https://taskstar-ai-app-thaixjacob-thaixjacobs-projects.vercel.app/" target="_blank">
+  <a href="taskstar-ai.vercel.app" target="_blank">
   <img width="250" src="public/demo-mobile.png" alt="todo app version mobile"><br>
   <img width="250" src="public/demo-desktop.png" alt="todo app version desktop"><br><br>
   This project is deployed in Vercel, check it out by clicking on this link!
