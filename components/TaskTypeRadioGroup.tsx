@@ -7,19 +7,19 @@ import { CheckCircleIcon } from "@heroicons/react/24/solid";
 const types: TaskType[] = [
   {
     id: "todo",
-    name: "Start Here",
+    name: "Let's start",
     description: "A new task to be completed",
     color: "bg-[#DC5E74]",
   },
   {
     id: "inprogress",
-    name: "On the Way",
+    name: "Working on it",
     description: "A task that is currently being worked on",
     color: "bg-[#E1B23E]",
   },
   {
     id: "done",
-    name: "Mission Complete",
+    name: "Mission completed!",
     description: "A task that has been completed",
     color: "bg-[#2BC5C0]",
   },
