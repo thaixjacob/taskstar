@@ -1,5 +1,11 @@
-import { PlusCircleIcon, TrashIcon } from "@heroicons/react/24/solid";
-import { Draggable, Droppable } from "react-beautiful-dnd";
+import { PlusCircleIcon } from "@heroicons/react/24/solid";
+import {
+  Draggable,
+  Droppable,
+  DraggableProvided,
+  DroppableProvided,
+  DroppableStateSnapshot,
+} from "react-beautiful-dnd";
 import TodoCard from "./TodoCard";
 import { useBoardStore } from "@/store/BoardStore";
 import { useModalStore } from "@/store/ModalStore";
@@ -42,7 +48,7 @@ function Column({ id, todos, index }: Props) {
 
   return (
     <Draggable draggableId={id} index={index}>
-      {(provided: any) => (
+      {(provided: DraggableProvided) => (
         <div
           {...provided.draggableProps}
           {...provided.dragHandleProps}
@@ -50,7 +56,10 @@ function Column({ id, todos, index }: Props) {
         >
           {/*render*/}
           <Droppable droppableId={index.toString()} type="card">
-            {(provided: any, snapshot: any) => (
+            {(
+              provided: DroppableProvided,
+              snapshot: DroppableStateSnapshot
+            ) => (
               <div
                 {...provided.droppableProps}
                 ref={provided.innerRef}
@@ -88,7 +97,7 @@ function Column({ id, todos, index }: Props) {
                         draggableId={todo.$id}
                         index={index}
                       >
-                        {(provided: any) => (
+                        {(provided: DraggableProvided) => (
                           <TodoCard
                             todo={todo}
                             index={index}
