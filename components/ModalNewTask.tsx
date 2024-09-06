@@ -103,7 +103,7 @@ function ModalNewTask() {
               type="file"
               ref={imagePickerRef}
               hidden
-              onChange={(e: any) => {
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                 if (!e.target.files![0].type.startsWith("image/")) return;
                 setImage(e.target.files![0]);
               }}
