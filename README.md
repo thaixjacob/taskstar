@@ -21,6 +21,8 @@ With the needs of children in mind, TaskStar offers a simple and colorful interf
 - **[Zustand](https://zustand-demo.pmnd.rs/)**: Lightweight and intuitive state management for React.
 - **[React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)**: To create drag-and-drop interfaces.
 - **[React Confetti](https://github.com/alampros/react-confetti)**: Adds a celebratory touch when tasks are completed.
+- **[Vercel](https://vercel.com/)**: Platform for deploying and hosting the project, ensuring fast and reliable performance.
+- **[Jest](https://jestjs.io/)**: Testing framework for running unit tests, ensuring the application’s reliability.
 
 ## 🤖 Artificial Intelligence
 
@@ -77,8 +79,8 @@ TaskStar's interface is designed with pastel colors and interactive elements to 
 
 <p align="center">
   <a href="https://taskstar-ai.vercel.app/" target="_blank">
-  <img width="250" src="public/demo-mobile.png" alt="todo app version mobile"><br>
-  <img width="250" src="public/demo-desktop.png" alt="todo app version desktop"><br><br>
+  <img width="500" src="public/demo-desktop.png" alt="todo app version desktop"><br>
+  <img width="250" src="public/demo-mobile.png" alt="todo app version mobile"><br><br>
   This project is deployed in Vercel, check it out by clicking on this link!
   </a>
 </p>
